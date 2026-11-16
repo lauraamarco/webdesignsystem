@@ -1,3 +1,37 @@
+header {
+    background: #F7FEE7;
+}
+
 body {
-    background-color: lightblue;
+    background-color: #F9FAFB;
+    font-family: 'Inter', sans-serif;
+    color: #0f172a;
+}
+
+/* --- Contenedor Interior para limitar el ancho y centrar --- */
+.header-content {
+    width: 100%;
+  max-width: none;          /* Quitamos el límite de ancho si quieres que respire libremente, o puedes dejar un max-width amplio */
+  padding: 32px 16px 16px 16px; /* El último valor (16px) o el segundo (16px) controla el margen lateral izquierdo */
+  text-align: left;         /* Asegura que el texto esté alineado a la izquierda */
+}
+
+/* --- Main Title (Usando Gloock) --- */
+.header-title {
+    font-family: 'Gloock', serif;
+    font-size: 75px;          /* Título grande y editorial */
+    font-weight: 400;         
+    line-height: 1.05;
+    color: #101828;           
+    margin-bottom: 16px;
+}
+
+/* --- Subtitle (Usando Inter) --- */
+.header-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;         /* Texto de subtítulo */
+    font-weight: 400;
+    line-height: 1.5;
+    color: #334155;
+    margin-bottom: 32px;
 }
